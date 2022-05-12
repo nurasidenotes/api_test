@@ -30,10 +30,3 @@ api.add_resource(UserRegister, '/register')
 if __name__ == '__main__': ##makes sure that if app.py is called by another app, it will not run the app
     db.init_app(app)
     app.run(port=5000, debug=True)
-
-
-## from db import db
-##if __name__ == '__main__':
-##   
-##   db.init_app(app)
-##   app.run(...)
